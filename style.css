@@ -322,7 +322,9 @@ input{
     .card-group{
             display: flex;
             justify-content: center;
-            margin: 0px
+            margin: 0px;
+            flex-basis:calc(33.33% - 10px);
+
         }
 
         
