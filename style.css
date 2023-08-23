@@ -13,6 +13,7 @@ body{
     font-size: 3 rem;
 }
 
+
 #work1{
     color:rgb(78, 60, 237);
 }
@@ -215,6 +216,16 @@ input{
     height: 200px;
     border-radius: 10px;
     position: relative;
+}
+
+.card3{
+    position:relative;
+    width: 400px;
+    margin-right: 200px;
+    background-color: white;
+    height: 200px;
+    border: white solid;
+    
 }
 
 .input1{
