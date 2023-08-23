@@ -70,11 +70,12 @@ a{
 .card{
     border: white solid;
     background-color: white;
-    width: 300px;
+    width: 350px;
     height: 270px;
     margin: 10px;
     border-radius: 10px;
     flex-basis: 285px;
+    flex-basis: calc(33.33% - 10px);
 }
 .card:hover{
     box-shadow:0px 0px 2px 2px rgb(84, 110, 238);
@@ -383,11 +384,20 @@ input{
     
     .card2{
             position: absolute;
-            left: -61vw;
-            width: 383px;
+            left: -63vw;
+            width: 370px;
             margin-right: 200px;
         }
-
+    
+    .card3{
+            position: absolute;
+            left: -60vw;
+            width: 370px;
+            margin-right: 200px;
+            background-color: white;
+            height: 200px;
+            
+        }
 
     .newtask{
             position: absolute;
@@ -408,7 +418,7 @@ input{
 
         .input1{
             width: 330px;
-            height: 27px;
+            height: 35px;
             margin-top: 15px;
             margin-left: 15px;
             margin-right: 15px;
@@ -416,11 +426,31 @@ input{
             border-radius: 4px;
             border: solid  rgb(239, 238, 238);
         }
+
+        #input1{
+            width: 88%;
+            height: 4vh;
+            margin-top: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            background-color:  rgb(239, 238, 238);
+            border-radius: 4px;
+            padding-left: 15px;
+            border: solid  rgb(239, 238, 238);
+        }
+
+        .hi{
+            margin-top:30px ;
+        }
+
        
         .fh{
-           font-size: 18px;
-           margin-right: 80px;
-        }
+            position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: 24px;
+                cursor: pointer;
+            }
        
 }
     
